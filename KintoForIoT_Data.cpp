@@ -6,7 +6,7 @@
 #include "Arduino.h"
 
 // include this library's description file
-#include "KintoForIoT.h"
+#include "KintoForIoT_Data.h"
 
 // include description files for other libraries used
 #include <ArduinoJson.h>   //https://github.com/bblanchon/ArduinoJson
