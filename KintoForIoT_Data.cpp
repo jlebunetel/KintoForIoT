@@ -33,6 +33,7 @@ void Data::connect(char* server, char* token, char* secret, char* collection)
   strcpy(_token, token);
   strcpy(_secret, secret);
   strcpy(_collection, collection);
+  _connected = true;
 };
 
 
@@ -89,6 +90,8 @@ void Data::write(char* key, char* value)
 
 void Data::get()
 {
+  if (!isConnected()) { return; }
+
   String jsonMessageBuffer;
 
   char url[URL_BUFFER_SIZE] = "";
@@ -151,6 +154,8 @@ void Data::get()
 
 void Data::post()
 {
+  if (!isConnected()) { return; }
+  
   DynamicJsonBuffer jsonBufferRoot;
   JsonObject& root = jsonBufferRoot.createObject();
   root["data"] = RawJson(_json);

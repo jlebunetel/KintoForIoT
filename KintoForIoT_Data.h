@@ -25,6 +25,9 @@ class Data
     void write(char* key, char* value);
     void get();
     void post();
+    void setLocal() { _local = true; };
+    bool isLocal() { return _local; };
+    bool isConnected() { return _connected; };
 
   // library-accessible "private" interface
   private:
@@ -33,6 +36,8 @@ class Data
     char _secret[PROPERTY_BUFFER_SIZE];
     char _collection[PROPERTY_BUFFER_SIZE];
     char _json[JSON_BUFFER_SIZE];
+    bool _local = false;
+    bool _connected = false;
 };
 
 #endif
