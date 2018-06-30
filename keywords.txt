@@ -1,0 +1,35 @@
+#######################################
+# Syntax Coloring Map For KintoForIoT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+KintoForIoT	KEYWORD1
+Data	KEYWORD1
+Led	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+connect	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+get	KEYWORD2
+post	KEYWORD2
+setLocal	KEYWORD2
+isLocal	KEYWORD2
+isConnected	KEYWORD2
+begin	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
