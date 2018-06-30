@@ -20,7 +20,7 @@ Led led;
 
 void setup() {
   // initializing the led
-  led.begin(16); // GPI16 = D0
+  led.begin(16); // GPI016 = D0
 
   // connecting the led to Kinto
   led.connect(SERVER, LOGIN, PASS, "led");
