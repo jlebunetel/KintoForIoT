@@ -12,5 +12,6 @@
 // include library parts
 #include "KintoForIoT_Data.h"
 #include "KintoForIoT_Led.h"
+#include "KintoForIoT_Button.h"
 
 #endif

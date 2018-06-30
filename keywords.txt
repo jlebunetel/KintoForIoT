@@ -9,6 +9,7 @@
 KintoForIoT	KEYWORD1
 Data	KEYWORD1
 Led	KEYWORD1
+Button	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -25,6 +26,11 @@ isConnected	KEYWORD2
 begin	KEYWORD2
 on	KEYWORD2
 off	KEYWORD2
+isOn	KEYWORD2
+isOff	KEYWORD2
+hasChanged	KEYWORD2
+isJustOn	KEYWORD2
+isJustOff	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
